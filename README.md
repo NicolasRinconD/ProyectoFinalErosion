@@ -3,8 +3,8 @@ Proyecto Final
 Integrantes:
 -- Nicolás Rincón 
 -- Nicolás Díaz
-Simulating erosion to try make procedural terrains look a little more natural.
-See my video on this project here: https://www.youtube.com/watch?v=eaXk97ujbPQ Interactive demo: https://sebastian.itch.io/hydraulic-erosion
+Simulando erosión para que terrenos procedurales puedan asimilarse a formas de la realidad.
+
 
 Para correr este proyecto se necesita el engine de unity: https://unity3d.com/
 
