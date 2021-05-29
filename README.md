@@ -1,8 +1,10 @@
 # Erosion - Computación Visual
 Proyecto Final
 Integrantes:
--- Nicolás Rincón 
--- Nicolás Díaz
+
+- Nicolás Rincón 
+- Nicolás Díaz
+
 Simulando erosión para que terrenos procedurales puedan asimilarse a formas de la realidad.
 
 
@@ -13,4 +15,4 @@ Instrucciones:
 2. Ir a File -> Open Scene y escoger en la carpeta `Scenes` el archivo `Small Terrain`.
 3. Presionar play y entrar a la pestaña de juego.
 
-Alternativamente después de escoger la escena puedes ir a File -> Build and Run, y al guardarla en una carpeta afuera del proyecto el engine creara y ejecutara la escena automaticamente.
+Alternativamente después de escoger la escena se puede ir a File -> Build and Run, y al guardarla en una carpeta afuera del proyecto el engine creara y ejecutara la escena automáticamente.
