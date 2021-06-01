@@ -27,7 +27,6 @@ public class PersistenceSlider : MonoBehaviour
             _sliderText.text = v.ToString("0.00");
             hmg.persistence = (float)v;
             tg.GenerateHeightMap();
-            tg.Erode();
             tg.ContructMesh();
         });
     }

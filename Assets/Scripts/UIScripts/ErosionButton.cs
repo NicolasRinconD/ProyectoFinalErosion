@@ -19,9 +19,11 @@ public class ErosionButton : MonoBehaviour
 
         terrain = GameObject.Find("Terrain");
         TerrainGenerator tg = (TerrainGenerator)terrain.GetComponent(typeof(TerrainGenerator));
+        HeightMapGenerator mg = (HeightMapGenerator)terrain.GetComponent(typeof(HeightMapGenerator));
+
         _btn.onClick.AddListener(() => {
+            mg.seed = Random.Range(-10000, 10000);
             tg.GenerateHeightMap();
-            tg.Erode();
             tg.ContructMesh();
         });
 
