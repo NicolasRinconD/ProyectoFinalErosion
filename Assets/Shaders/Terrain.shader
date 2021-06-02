@@ -24,7 +24,7 @@
         fixed4 _RockColour;
 
         void surf (Input IN, inout SurfaceOutputStandard o) {
-            float slope = 1-IN.worldNormal.y; // slope = 0 when terrain is completely flat
+            float slope = 1-IN.worldNormal.y;
             float grassBlendHeight = _GrassSlopeThreshold * (1-_GrassBlendAmount);
             float grassWeight = 1-saturate((slope-grassBlendHeight)/(_GrassSlopeThreshold-grassBlendHeight));
             o.Albedo = _GrassColour * grassWeight + _RockColour * (1-grassWeight);
